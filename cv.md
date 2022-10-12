@@ -10,10 +10,14 @@ I am a broad-minded, hardworking, conscientious and easy-going person. I like to
 - Adobe Photoshop
 
 ## Code example:
-no code example yet.
-
+```
+const x = '11';
+const y = '61';
+const z = x * y;
+console.log(z);
+```
 ## Experience:
-**TEACHING EXPIERIENCE**: English and Piano teacher in International Kindergarten and Luo Yuan training center in Foshan, China(2019-2022).
+**TEACHING EXPERIENCE**: English and Piano teacher in International Kindergarten and Luo Yuan training center in Foshan, China(2019-2022).
 
 
 ## Education:
