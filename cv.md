@@ -17,7 +17,8 @@ const z = x * y;
 console.log(z);
 ```
 ## Experience:
-**TEACHING EXPERIENCE**: English and Piano teacher in International Kindergarten and Luo Yuan training center in Foshan, China(2019-2022).
+**TEACHING EXPERIENCE**: Accordion teacher in Oskar Kolberg Music School in Radom, Poland (2018-2019).
+English and Piano teacher in New Century International Kindergarten and Luo Yuan training center in Foshan, China (2019-2022).
 
 
 ## Education:
