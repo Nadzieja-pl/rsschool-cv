@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+main{padding: 30px;}
+body{margin: 0px;
+padding: 0px;
+background-color:rgb(112, 112, 112) ;}
+.clearfix{clear: both;}
+.bio{ width: 1000px;
+height: 1200px;
+margin: 0 auto;
+background-image: url(back.jpg);}
+.left{background-color: rgb(223, 177, 108);
+width: 35%;
+float: left;
+height:1200px;position: relative;}
+.big{width: 60%;
+float:right;
+padding-left: 40px;
+padding-right: 10px; text-align: justify;
+margin-top: -1200px;
+}
+#NB{width: 100%;}
+.left{padding: 20px;font-family:'Oranienbaum', serif;}
+h2{color: rgb(44, 44, 40);
+text-transform: uppercase;
+font-weight: 300;}
+p{color: rgb(41, 39, 37);
+font-weight: 300;}
+nav ul{padding-left: 15px; width: 100%;}
+nav li{display: inline;}
+nav a{ outline: none; text-decoration: none; display: inline; text-align: center;line-height: 3; color: rgb(221, 175, 25);}
+.righthead{text-align: right;padding-right: 50px;}
+h1{text-align: center;}
+#moveit{text-align: right;padding-right: 50px;}
+footer{padding-left: 40%;}
