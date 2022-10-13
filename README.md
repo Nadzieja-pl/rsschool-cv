@@ -1,1 +1,1 @@
-https://Nadzieja-pl.github.io/rsschool-cv/index.html
+https://Nadzieja-pl.github.io/rsschool-cv/
