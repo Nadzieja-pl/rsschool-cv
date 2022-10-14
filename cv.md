@@ -1,7 +1,7 @@
 # **Nadzieja Bajda**
 
 ## Contact:
-- e-mail:**nadzieja.bajda@gmail.com**
+- e-mail: **nadzieja.bajda@gmail.com**
 - Discord: Nadzieja#4944
 ## Personal information:
 I am a broad-minded, conscientious and easy-going person. I like to study and improve myself constantly. 
@@ -16,7 +16,9 @@ I am a broad-minded, conscientious and easy-going person. I like to study and im
 ```
 
 ## Experience:
-**TEACHING EXPERIENCE**: English and Piano teacher in International Kindergarten and Luo Yuan training center in Foshan, China(2019-2022).
+**TEACHING EXPERIENCE**:
+Accordion teacher in Oskar Kolberg Music School in Radom, Poland (2018-2019).
+English and Piano teacher in International Kindergarten and Luo Yuan training center in Foshan, China(2019-2022).
 
 
 ## Education:
