@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
 * body{
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
     box-sizing: border-box; font-family:'Frank Ruhl Libre', serif;
+    text-align: center;
 }
 body{background-color: rgb(78, 49, 49);}
 main{margin: 1.5rem;
@@ -11,6 +12,7 @@ grid-template-columns: 39% 1fr;
 grid-gap: 1rem;
 filter: drop-shadow(0 0 0.4rem rgb(161, 115, 161));
 }
+h1{font-size: 3vw;}
 .left{
     background-color: rgb(216, 203, 203);
 }
@@ -31,7 +33,8 @@ li{
     .contacts, .bio, .languages{ line-height: 2;
         padding: 1rem;
     }
-    nav{width: 1000px; margin: 0 auto;}
+    #project a{color: rgb(156, 132, 95);height: 50px; padding: 0 30px; text-transform: uppercase;text-decoration: none;}
+    nav{width: auto; margin: 0 auto;}
 nav ul{margin: 0 2rem;padding: 0;list-style: none;height: 50px;}
 nav ul li{float: inline-start; display: inline; text-align: justify;}
 nav a{display:inline-block; padding: 8px;background-color: rgb(56, 56, 53);}
@@ -42,6 +45,6 @@ nav ul li a:hover{background: darkgoldenrod;}
 .experience h2{text-transform: uppercase; margin: 2rem;}
 .code h2{text-transform: uppercase; margin: 2rem;}
 .skills h2{text-transform: uppercase; margin: 2rem;}
-footer{background-color: rgb(128, 112, 125);padding: 2rem 0;
-    text-align: center; line-height: 1;}
+footer{background-color: rgb(128, 112, 125); margin-left: 200px;
+    text-align: center; line-height: 1; position: relative;}
     footer i{color: black;}
