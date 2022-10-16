@@ -16,8 +16,9 @@ h1{font-size: 3vw;}
 .left{
     background-color: rgb(216, 203, 203);
 }
+progress::-webkit-progress-value{background-color: rgb(36, 34, 35);}
 .right{
-    background-image: url(back.jpg);
+    background-image: url(back.jpg);background-size: cover;
 }
 li{
     list-style: none;}
