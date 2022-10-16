@@ -19,13 +19,15 @@ filter: drop-shadow(0 0 0.4rem rgb(161, 115, 161));
 }
 li{
     list-style: none;}
-.photo img{
+.photo img{max-width: 300px;
     width: 100%; border-radius: 25%;
 }
+.contacts ul{margin-left: -2rem;}
+.languages ul{margin-left: -2rem;}
 .photo{
     position: relative;}
 .photo h1{
-    position: absolute; bottom: 0; left: 12.5rem;}
+    position: absolute; bottom: 1rem; left: 2rem; color:  rgb(119, 90, 67);}
     .contacts, .bio, .languages{ line-height: 2;
         padding: 1rem;
     }
