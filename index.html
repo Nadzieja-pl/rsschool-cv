@@ -3,17 +3,30 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cvstyle.css">
     <title>Nadzieja Bajda CV</title>
 </head>
 <body>
+    <div class="container">
+        <header>
+          <h1>
+            Nadzieja Bajda
+        </h1>
+        </header>
     <main>
+        <nav>
+            <ul class="menu">
+                <li><a href="#mycontact">Contacts</a></li>
+                <li><a href="#myskills">Skills</a></li>
+                <li><a href="#myedu">Education</a></li>
+                <li><a href="#job">Experience</a></li>
+                <li><a href="#mycode">Code example</a></li>
+                <li><a href="#language">Languages</a></li>
+            </ul> </nav>
+            <div class="maincont">
         <div class="left">
            <div class="photo">
         <img src="photo.jpg" alt="Picture of Nadzieja Bajda">
-        <h1>
-            Nadzieja Bajda
-        </h1>
     </div>
     <div class="contacts">
         <h2 id="mycontact">Contacts</h2>
@@ -39,15 +52,6 @@
     </div>
         </div>
         <div class="right">
-            <nav>
-                <ul class="menu">
-                    <li><a href="#mycontact">Contacts</a></li>
-                    <li><a href="#myskills">Skills</a></li>
-                    <li><a href="#myedu">Education</a></li>
-                    <li><a href="#job">Experience</a></li>
-                    <li><a href="#mycode">Code example</a></li>
-                    <li><a href="#language">Languages</a></li>
-                </ul> </nav>
                 <div class="edu"><h2 id="myedu"><br>Education</h2>
             <ul>
                 <li>
@@ -95,10 +99,11 @@
                     </div>
 
         </div>
-    </main>
-    <footer><a href="https://github.com/Nadzieja-pl"><img src="gitHubLogo.png" width="35" alt="GitHub Logo"></a>
-        <a href="https://rs.school/js-en/"><img src="logo-rsschool3.png" width="45" alt="Logo of RS School"></a>
-        <p>2022 October © by Nadzieja Bajda</p>
+    </div>
+
+    </main></div>
+    <footer><a href="https://github.com/Nadzieja-pl"><img src="gitHubLogo.png" width="35" alt="GitHub Logo" id="leftlogo"></a>
+        <p id="october">2022 October © by Nadzieja Bajda</p><a href="https://rs.school/js-en/"><img src="logo-rsschool3.png" width="65" alt="Logo of RS School"></a>
     </footer>
 </body>
 </html>
