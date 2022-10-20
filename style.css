@@ -1,24 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
-* body{
-    margin: 0 20px;
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.container{width: 1140px; margin: 0 auto;}
+header {
+    width: 1140px;
+  align-items: center;
+  padding-bottom: 2em;
+  background-color: rgb(63, 56, 53);
+}
+body{
     padding: 0;
     box-sizing: border-box; font-family:'Frank Ruhl Libre', serif;
     text-align: center;
 }
-body{background-color: rgb(78, 49, 49);}
-main{margin: 1.5rem;
-    display: grid;
+body{background-color: rgb(255, 255, 255);}
+.maincont{display: grid;
 grid-template-columns: 39% 1fr;
 grid-gap: 1rem;
-filter: drop-shadow(0 0 0.4rem rgb(161, 115, 161));
+filter: drop-shadow(0 0 0.4rem rgb(54, 49, 54));
 }
-h1{font-size: 3vw;}
+h1{font-size: 3vw;font-family: 'Kaushan Script', cursive;color: rgb(255, 255, 255);text-transform:uppercase; text-align: left; padding-left: 2rem;}
 .left{
-    background-color: rgb(216, 203, 203);
+    background-color: rgb(197, 189, 189);
 }
 progress::-webkit-progress-value{background-color: rgb(36, 34, 35);}
 .right{
-    background-image: url(back.jpg);background-size: cover;
+    background-color:rgb(240, 235, 233) ;
 }
 li{
     list-style: none;}
@@ -29,23 +35,21 @@ li{
 .languages ul{margin-left: -2rem;}
 .photo{
     position: relative;}
-.photo h1{
-    position: absolute; bottom: 1rem; left: 2rem; color:  rgb(119, 90, 67);}
     .contacts, .bio, .languages{ line-height: 2;
         padding: 1rem;
     }
     #project a{color: rgb(156, 132, 95);height: 50px; padding: 0 30px; text-transform: uppercase;text-decoration: none;}
-    nav{width: auto; margin: 0 auto;}
-nav ul{margin: 0 2rem;padding: 0;list-style: none;height: 50px;}
-nav ul li{float: inline-start; display: inline; text-align: justify;}
-nav a{display:inline-block; padding: 8px;background-color: rgb(56, 56, 53);}
-nav ul li a{color: rgb(156, 132, 95);height: 50px; padding: 0 30px; text-transform: uppercase;text-decoration: none; line-height: 50px; font-size: 1rem;}
-nav ul li a:hover{background: darkgoldenrod;}
+nav ul li{ width: 120%; display: inline; text-align:justify; padding: 0 60px; margin: -2rem;}
+
+nav ul li a{color: rgb(156, 132, 95);text-transform: uppercase;text-decoration: none; line-height: 30px; font-size: 1.25em; font-weight: bold;}
+nav ul li a:hover{background: rgb(189, 185, 176);}
 .edu .experience .skills ul{line-height: 2; text-align: justify;}
 .edu h2{text-transform: uppercase; margin: 2rem;}
+.skills ul{margin-right: 2rem;}
+pre{margin-right: 2rem;}
 .experience h2{text-transform: uppercase; margin: 2rem;}
 .code h2{text-transform: uppercase; margin: 2rem;}
 .skills h2{text-transform: uppercase; margin: 2rem;}
-footer{background-color: rgb(128, 112, 125); margin-left: 200px;
-    text-align: center; line-height: 1; position: relative;}
-    footer i{color: black;}
+footer{display:flex; width:1140px; justify-content:space-around;
+ background-color:#3a3737;padding-top: 1rem;margin: 0 auto; filter: drop-shadow(0 0 0.4rem rgb(54, 49, 54));color: rgb(224, 224, 211);}
+    #october{text-align: center; margin-left: 5em;}
