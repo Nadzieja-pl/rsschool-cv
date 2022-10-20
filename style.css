@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.container{width: 1140px; margin: 0 auto;}
+header {
+    width: 1140px;
+  align-items: center;
+  padding-bottom: 2em;
+  background-color: rgb(63, 56, 53);
+}
+body{
+    padding: 0;
+    box-sizing: border-box; font-family:'Frank Ruhl Libre', serif;
+    text-align: center;
+}
+body{background-color: rgb(255, 255, 255);}
+.maincont{display: grid;
+grid-template-columns: 39% 1fr;
+grid-gap: 1rem;
+filter: drop-shadow(0 0 0.4rem rgb(54, 49, 54));
+}
+h1{font-size: 3vw;font-family: 'Kaushan Script', cursive;color: rgb(255, 255, 255);text-transform:uppercase; text-align: left; padding-left: 2rem;}
+.left{
+    background-color: rgb(197, 189, 189);
+}
+progress::-webkit-progress-value{background-color: rgb(36, 34, 35);}
+.right{
+    background-color:rgb(240, 235, 233) ;
+}
+li{
+    list-style: none;}
+.photo img{max-width: 300px;
+    width: 100%; border-radius: 25%;
+}
+.contacts ul{margin-left: -2rem;}
+.languages ul{margin-left: -2rem;}
+.photo{
+    position: relative;}
+    .contacts, .bio, .languages{ line-height: 2;
+        padding: 1rem;
+    }
+    #project a{color: rgb(156, 132, 95);height: 50px; padding: 0 30px; text-transform: uppercase;text-decoration: none;}
+nav ul li{ width: 120%; display: inline; text-align:justify; padding: 0 60px; margin: -2rem;}
+
+nav ul li a{color: rgb(156, 132, 95);text-transform: uppercase;text-decoration: none; line-height: 30px; font-size: 1.25em; font-weight: bold;}
+nav ul li a:hover{background: rgb(189, 185, 176);}
+.edu .experience .skills ul{line-height: 2; text-align: justify;}
+.edu h2{text-transform: uppercase; margin: 2rem;}
+.skills ul{margin-right: 2rem;}
+pre{margin-right: 2rem;}
+.experience h2{text-transform: uppercase; margin: 2rem;}
+.code h2{text-transform: uppercase; margin: 2rem;}
+.skills h2{text-transform: uppercase; margin: 2rem;}
+footer{display:flex; width:1140px; justify-content:space-around;
+ background-color:#3a3737;padding-top: 1rem;margin: 0 auto; filter: drop-shadow(0 0 0.4rem rgb(54, 49, 54));color: rgb(224, 224, 211);}
+    #october{text-align: center; margin-left: 5em;}
